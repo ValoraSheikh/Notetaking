@@ -120,6 +120,7 @@ input, select {
     margin-top: 1rem;
     cursor: pointer;
     margin: 10px 20px;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .box button:hover{
@@ -166,3 +167,14 @@ input, select {
     cursor: pointer;
 }
 
+
+.box .removeBtn{
+    background-color: red;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.box .removeBtn:hover{
+    color: red;
+    background-color: white;
+
+}
